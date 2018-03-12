@@ -14,13 +14,13 @@ url: "https://allylei.github.io" # the base hostname & protocol for your site
 permalink: /:year/:month/:day/:title/
 
 # other links
-twitter_username: lei
-facebook_username: lei
+#twitter_username: lei
+#facebook_username: lei
 github_username:  allyLei
 email: ally.sunlei@gmail.com
-linkedIn_username: LeiSun
-whatsapp_username: 573504676085
-instagram_username: lei
+#linkedIn_username: LeiSun
+#whatsapp_username: 573504676085
+#instagram_username: lei
 
 description_footer: Learning and practise, always stay foolish and stay young
 
