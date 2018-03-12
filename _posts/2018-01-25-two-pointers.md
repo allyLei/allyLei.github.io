@@ -18,7 +18,7 @@ author: sunlei
 
 
 
-```
+~~~python
 def two_sum(nums, target):
 	low, high = 0, len(nums) - 1
 	while low < high:
@@ -30,7 +30,8 @@ def two_sum(nums, target):
 		else:
 			return True
 	return False
-```
+~~~
+
 头尾指针的变种有：
 
 1. 满足累加和>=target的最长子序列，即 $$max(t-s+1) s.t. \Sigma^{i=t}_{i=s}nums[i]>=target$$,使用头尾两个指针。

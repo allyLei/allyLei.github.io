@@ -18,7 +18,8 @@ author: sunlei
 ## Binary Search
 
 经典的Binary Search查找target如下：
-```
+
+~~~python
 low, high = 0, len(nums)
 while low < high:
 	i = (low + high) // 2
@@ -28,7 +29,7 @@ while low < high:
 		high = i
 	else:
 		return i
-```
+~~~
 
 Binary search的简单的变种有，在有序数组中search范围（左范围+右范围），在某个点平移有序数组后的数组中查找target等等。
 
@@ -39,8 +40,10 @@ Binary search的简单的变种有，在有序数组中search范围（左范围+
 
 
 ## Quick Sort
+
 Quick sort也是分治法
-```
+
+~~~python
 def quick_sort(nums, start, end):
 	if start >= end:
 		return
@@ -54,4 +57,4 @@ def quick_sort(nums, start, end):
 	nums[start], nums[low] = nums[low], pivot
 	quick_sort(nums, start, low-1)
 	quick_sort(nums, low+1, end)
-```
+~~~

@@ -29,7 +29,8 @@ LCS是一个经典的DP问题。
 
 
 注意，它和最长公共子串不同，最长公共子串要求连续，这个使用一维数据DP就可以解决：
-```
+
+~~~python
 def findLength(A, B):
 	ret = 0
 	D = [0] * (len(B) + 1)
@@ -41,4 +42,4 @@ def findLength(A, B):
 			else:
 				D[j+1] = 0
 	return ret
-```
+~~~
