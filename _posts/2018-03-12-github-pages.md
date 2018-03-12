@@ -85,7 +85,9 @@ pre[class='highlight'] {background-color:#272822;}
 在markdown中编写代码块时候，需要以三个~为开头+language, 再以三个~为结尾。中间为代码块。language对照表可以参见[这里](https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers)。
 
 
+## Github pages中添加Comments
 
+添加Comments可以通过disqus来实现，参考[这篇](http://www.forestofhorizon.com/notesofstudy/2015/12/01/adding-disqus-to-github-pages/)来实现。但是貌似国内访问有一些问题，并且这个blog是为了个人笔记用途，故没有加入这个功能。
 
 
 
