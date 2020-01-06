@@ -41,7 +41,7 @@ DT将特征空间划分为很多块，每个叶子节点表示一个划分的特
 
 2. 分类损失函数：交叉熵plogp， Gini指数p(1-p)
 
-![Decision Tree 损失函数](http://pic.puaschool.cn/pictures/2018/01/30/91d692dd56154e13a90834c67b2fded9.png?query=9fc0307a957a47769517d9695ebf39d5)
+![Decision Tree 损失函数](https://pic.superbed.cn/item/5e1315fd76085c32891c5042.png)
 
 针对过拟合问题，一般DT的学习中的正则项选择为树的深度或者叶子节点的个数等，除了显式的在损失函数中加入正则项，还可以通过剪枝来减轻过拟合的问题。DT的学习过程一般都是从candidate feature中选择出一个一个最能够使得loss下降的feature进行split，正是由于DT的损失函数是加性的（对每个叶子节点损失的相加），所以针对特定的分支点，可以计算得到损失的增益值，选择损失值变的最小的那个feature，作为分支feature。在实际使用过程中，通常都是使用启发式搜索。
 
