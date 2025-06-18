@@ -22,7 +22,7 @@ repository               : "allyLei/allyLei.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "me.jpg"
   name             : "Lei Sun"
   pronouns         : # example: "she/her"  
   bio              : "All we have is now"
